@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.fundo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+.header {
+    position: fixed;
+    top: 3%;
+    left: 20%;
+    width: 100%;
+    padding: 25px 12.5%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar a {
+    position: relative;
+    font-size: 36px;
+    color: #C49197;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: #C49197;
+    border-radius: 5px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: .5s;
+}
+
+.navbar a:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+a {
+    color: #C49197;
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 60px;
+    margin-top: 20px;
+    float: right;
+}
+
+.navbar a:hover::after {
+    color: #C49197;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.log1n {
+    margin-left: 180%;
+
+
+}
+
+.container {
+    background-color: #EBD4C9;
+
+}
+
+.container2 {
+    position: absolute;
+    width: 100%;
+    height: 84%;
+    position: absolute;
+    background-color: #EBD4C9;
+}
+
+.linha{
+    margin-top: 100px;
+    margin-left: 60%;
+}
+
+#saude{
+    position: relative;
+    color: white;
+    margin-left: 400px;
+    bottom: 40%;
+    font-size: 100px;
+   
+}
+
+button {
+    
+    position: relative;
+    color: #C49197;
+    font-size: 40px;
+    bottom: 27%;
+    margin-left: 480px;
+    border-radius: 55px;
+    border: none;
+    padding: 35px;
+    width: 350px;
+    background-color: #D8C2B7;
+    margin-right: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.3);
+    transform: scale(1.05);
+}
+
+.container3{
+    margin-top: 35%;
+    position: relative;
+    width: 100%;
+    height: 69%;
+    position: absolute;
+    background-color: #D8C2B7;
+}
+
+.anonimamente{
+    position: relative;
+    color: white;
+    font-size: 70px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.AMEC{
+    color: #C49197;
+}
+
+.button3{
+    position: relative;
+    color: #C49197;
+    font-size: 40px;
+    top: 100px;
+    margin-left: 650px;
+    border-radius: 55px;
+    border: none;
+    padding: 35px;
+    width: 350px;
+    background-color: #EBD4C9;
+    margin-right: 10px;
+}
+
+.container4{
+    margin-top: 68%;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    background-color: #EBD4C9 ;
+}
+
+.amizade{
+    margin-top: 7%;
+    margin-left: 1100px;
+}
+
+#força{
+    position: relative;
+    color: #C49197;
+    bottom: 500px;
+    font-size: 70px;
+    margin-left: 10%;
+}
+#pessoas{
+    position: relative;
+    bottom: 450px;
+   font-size: 40px;
+color: white;
+margin-left: 10%;}

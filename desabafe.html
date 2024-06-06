@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMEC - Auto Ajuda</title>
+
+    <link rel="stylesheet" href="assets/desabafe.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.png>
+    <link rel=" stylesheet" href="assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="container">
+            <img class="logo" src="assets/img/logo.png" alt="Logo" width="100px" onclick="redirecionar()">
+
+            <header class="header">
+                <nav class="navbar">
+                    <a href="habitos.html">Pisicologos</a>
+                    <a href="desabafe.html">Desabafe</a>
+                    <a href="sintomas.html">Sintomas</a>
+                    <a href="index.html">Inicio</a>
+
+                    <div class="log1n">
+
+                        <a href="login.html"><i class='bx bxs-user'></i></a>
+
+
+
+                    </div>
+                </nav>
+
+        </div>
+
+    </div>
+
+    <body style="background-color:#D8B3A2;">
+
+        <div class="anom">
+            <p>Seu desabafo é anônimo</p>
+        </div>
+    
+        <div class="titulo">
+            <input type="text" placeholder="Título">
+        </div>
+        <div class="desabafe">
+            <textarea placeholder="Desabafe aqui..." cols="29" rows="10"></textarea>
+        </div>
+    
+        <div class="publicar">
+            <img src="assets/img/publicar.png" alt="Publicar" width="300px" onclick="mostrarPopup()">
+        </div>
+        <div class="veroutras">
+            <img src="assets/img/veroutros.png" alt="Ver outras" width="550px" onclick="alerta()">
+        </div>
+    
+        <div id="meuPopup" class="popup">
+            <div class="popup-conteudo">
+                <h3>PUBLICADO COM SUCESSO!</h3>
+                <p>Clique no botão "Ver desabafos" se você quiser ler histórias de outras pessoas, se não, já pode fechar
+                    este popup!</p>
+                <br>
+                <button id="fechar" onclick="fecharPopup()">Fechar</button>
+                <button id="ver" onclick="alerta()">Ver desabafos</button>
+            </div>
+        </div>
+    
+        <script>
+            function alerta() {
+                alert("Esta página ainda será desenvolvida.")
+            }
+    
+            function mostrarPopup() {
+                event.preventDefault();
+                document.getElementById("meuPopup").style.display = "block";
+            }
+    
+            function fecharPopup() {
+                document.getElementById("meuPopup").style.display = "none";
+            }
+        </script>
+
+</body>
+</html>
